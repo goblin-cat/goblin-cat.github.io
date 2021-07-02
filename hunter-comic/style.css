@@ -15,6 +15,12 @@ a {
   color: grey;
 }
 
+img {
+  
+  image-rendering: -webkit-optimize-contrast;
+}
+
+
 /*format panels */
 
 
@@ -39,6 +45,39 @@ a {
 
 .nav {
   padding: 2%;
+}
+
+.image-table {
+  width: 100%;
+}
+
+.image-row {
+  width: 100%;
+}
+
+.image-cell2 {
+  width: 50%;
+}
+
+.image-cell4 {
+  width: 25%;
+}
+
+.image-cell3 {
+  width: 33%;
+}
+
+.cell-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.desc {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 80%
+  
+  
 }
 
 
