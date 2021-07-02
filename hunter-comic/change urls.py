@@ -8,11 +8,11 @@ import lxml
 ## Main functions ##
 
 
-ch3Files=os.listdir('ch3')
-numPages = len(ch3Files)
+ch5Files=os.listdir('ch5')
+numPages = len(ch5Files)
 
 for i in range(0,numPages):
-    path='ch3//'+ch3Files[i]
+    path='ch5//'+ch5Files[i]
     file = open(path,'r')
     page = file.read()
     soup = BeautifulSoup(page, 'lxml')
