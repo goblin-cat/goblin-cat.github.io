@@ -8,19 +8,19 @@ import lxml
 ## Main functions ##
 
 
-ch6Files=os.listdir('ch6')
-numPages = len(ch6Files)
+ch1Files=os.listdir('ch1')
+numPages = len(ch1Files)
 
 for i in range(0,numPages):
-    path='ch6//'+ch6Files[i]
+    path='ch1//'+ch1Files[i]
     file = open(path,'r')
     page = file.read()
     soup = BeautifulSoup(page, 'lxml')
     
-    mylinks = soup.findAll('a')
+    mylinks = soup.findAll('link')
     
     for i in range(0,len(mylinks)):
         mylinks[i]["href"] = "/hunter-comic"+mylinks[i]["href"]
  
     with open(path, "w") as ogfile:
-        ogfile.write(str(soup))
+       ogfile.write(str(soup))
