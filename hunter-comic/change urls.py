@@ -8,19 +8,22 @@ import lxml
 ## Main functions ##
 
 
-ch1Files=os.listdir('ch1')
-numPages = len(ch1Files)
+ch3Files=os.listdir('ch3')
+numPages = len(ch3Files)
 
 for i in range(0,numPages):
-    path='ch1//'+ch1Files[i]
+    path='ch3//'+ch3Files[i]
     file = open(path,'r')
     page = file.read()
     soup = BeautifulSoup(page, 'lxml')
     
-    mylinks = soup.findAll('link')
+    mylinks = soup.findAll('a')
     
     for i in range(0,len(mylinks)):
-        mylinks[i]["href"] = "/hunter-comic"+mylinks[i]["href"]
+        if ("hunter" not in mylinks[i]["href"]):
+            mylinks[i]["href"] = "/hunter-comic"+mylinks[i]["href"]
+        else:
+            print("skip")
  
     with open(path, "w") as ogfile:
        ogfile.write(str(soup))
