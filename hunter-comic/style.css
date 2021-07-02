@@ -1,0 +1,44 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: georgia, serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+a {
+  
+  color: grey;
+}
+
+/*format panels */
+
+
+@media screen and (max-width: 480px) {
+  .panel {
+    width: 100%;
+    padding: 1%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .panel {
+    width: 50%;
+    padding: 1%;
+  }
+}
+
+/*format header/footer */
+.header {
+  padding: 2%;
+}
+
+.nav {
+  padding: 2%;
+}
+
+
