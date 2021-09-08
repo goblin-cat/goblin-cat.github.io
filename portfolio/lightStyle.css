@@ -11,22 +11,22 @@ a.header-link {
 }
 
 /* unvisited link */
-a:link.header-link {
+a.header-link:link {
   color:rgb(66,66,66);
 }
 
 /* visited link */
-a:visited.header-link {
+a.header-link:visited {
   color:rgb(66,66,66);
 }
 
 /* mouse over link */
-a:hover.header-link {
+a.header-link:hover {
   color: rgb(245,245,245);
   background-color:rgb(66,66,66); 
 }
 
 /* selected link */
-a:active.header-link {
+a.header-link:active {
   color:rgb(66,66,66);
 }
