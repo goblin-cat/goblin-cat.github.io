@@ -4,3 +4,29 @@ body {
   margin: 2em;
   background-color: rgb(245,245,245);
 }
+
+/* header links */
+a.header-link {
+  color:rgb(66,66,66);
+}
+
+/* unvisited link */
+a:link.header-link {
+  color:rgb(66,66,66);
+}
+
+/* visited link */
+a:visited.header-link {
+  color:rgb(66,66,66);
+}
+
+/* mouse over link */
+a:hover.header-link {
+  color: rgb(245,245,245);
+  background-color:rgb(66,66,66); 
+}
+
+/* selected link */
+a:active.header-link {
+  color:rgb(66,66,66);
+}
