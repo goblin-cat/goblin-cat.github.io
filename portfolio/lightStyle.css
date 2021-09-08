@@ -1,9 +1,16 @@
 /* CSS files add styling rules to your content */
+/* testing */
+a {
+	color:pink;
+}
+
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   background-color: rgb(245,245,245);
 }
+
+
 
 /* header links */
 .header-link {
