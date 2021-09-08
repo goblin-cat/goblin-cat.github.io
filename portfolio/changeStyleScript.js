@@ -2,14 +2,14 @@
 // when any page is loaded, swap out template based on this variable
 
 if (localStorage.style == "light" ){
-	changeStyleSheet("/lightStyle.css");
+	changeStyleSheet("/portfolio/lightStyle.css");
 } else if (localStorage.style == "dark" ){
-	changeStyleSheet("/darkStyle.css");
+	changeStyleSheet("/portfolio/darkStyle.css");
 }else if (localStorage.style == "fun" ){
-	changeStyleSheet("/funStyle.css");
+	changeStyleSheet("/portfolio/funStyle.css");
 } else {
 	// by default, light
-	changeStyleSheet("/lightStyle.css");
+	changeStyleSheet("/portfolio/lightStyle.css");
 }
 
 function changeStyleSheet(sheet){
