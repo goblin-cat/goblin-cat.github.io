@@ -13,25 +13,25 @@ a.header-link {
 
 /* unvisited link */
 a.header-link:link {
-  color:rgb(66,66,66);
+  color:rgb(105,105,105);
   text-decoration: none;
 }
 
 /* visited link */
 a.header-link:visited {
-  color:rgb(66,66,66);
+  color:rgb(105,105,105);
   text-decoration: none;
 }
 
 /* mouse over link */
 a.header-link:hover {
   color: rgb(245,245,245);
-  background-color:rgb(66,66,66); 
+  background-color:rgb(105,105,105); 
   text-decoration: none;
 }
 
 /* selected link */
 a.header-link:active {
-  color:rgb(66,66,66);
+  color:rgb(105,105,105);
   text-decoration: none;
 }
