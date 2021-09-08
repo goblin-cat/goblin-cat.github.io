@@ -1,8 +1,4 @@
 /* CSS files add styling rules to your content */
-/* testing */
-a {
-	color:pink;
-}
 
 body {
   font-family: helvetica, arial, sans-serif;
@@ -10,34 +6,32 @@ body {
   background-color: rgb(245,245,245);
 }
 
-
-
-/* header links */
-.header-link {
-  color:pink;
-}
-
 a.header-link {
   color:rgb(66,66,66);
+  text-decoration: none;
 }
 
 /* unvisited link */
 a.header-link:link {
   color:rgb(66,66,66);
+  text-decoration: none;
 }
 
 /* visited link */
 a.header-link:visited {
   color:rgb(66,66,66);
+  text-decoration: none;
 }
 
 /* mouse over link */
 a.header-link:hover {
   color: rgb(245,245,245);
   background-color:rgb(66,66,66); 
+  text-decoration: none;
 }
 
 /* selected link */
 a.header-link:active {
   color:rgb(66,66,66);
+  text-decoration: none;
 }
