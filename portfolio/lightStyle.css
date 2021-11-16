@@ -37,9 +37,5 @@ a.header-link:active {
 }
 
 .content-table {
-	width: 75%;
+	width: 50%;
 }
-
-img.project-image{
-	margin: auto;
-	display: block;
