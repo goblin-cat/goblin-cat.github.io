@@ -84,6 +84,9 @@ img.pixel-image {
 
 img.project-image{
 	width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 	
 	
