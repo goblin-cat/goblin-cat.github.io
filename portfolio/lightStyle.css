@@ -71,6 +71,12 @@ a:active {
   margin-right: auto;
 }
 
+@media screen and (max-width: 480px) {
+  .content-table {
+	width: 75%;
+	padding: 2%;
+}
+}
 .content-table {
 	width: 50%;
 	padding: 2%;
@@ -86,6 +92,15 @@ img.pixel-image {
 	image-rendering: crisp-edges;
 }
 
+
+@media screen and (max-width: 480px) {
+	 img.project-image{
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 img.project-image{
 	width: 75%;
     display: block;
