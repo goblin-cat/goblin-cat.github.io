@@ -76,6 +76,10 @@ a:active {
 	padding: 2%;
 }
 
+div.header{
+	padding: 5%;
+}
+
 img.pixel-image {
 	image-rendering: pixelated;
 	image-rendering: -moz-crisp-edges;
