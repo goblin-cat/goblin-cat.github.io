@@ -40,3 +40,15 @@ a.header-link:active {
 	width: 50%;
 	padding: 10%;
 }
+
+img.pixel-image {
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: crisp-edges;
+}
+
+img.project-image{
+	width: 50%;
+}
+	
+	
